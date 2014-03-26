@@ -1,0 +1,50 @@
+<head>
+  <title>Makindo UI Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+    {{> map}}
+</body>
+
+<template name="map">
+  <div id="container" class="container">
+    <table class="header">
+      <tr>
+        <td>
+          <img src="logo.png">
+        </td>
+        <td>
+          <h1 class="title">Makindo UI Demo</h1>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          {{> search_city}}
+        </td>
+      </tr>
+    </table>
+    <div class="map-container">
+      <div id="map" class="map"></div>
+    </div>
+  </div>
+</template>
+
+<template name="search_city">
+  <table>
+    <tr>
+      <td>
+        <div id="city_search">City Search</div>
+      </td>
+      <td style="padding-left: 10px;">
+        <input type="text" id="searchBox">
+      </td>
+      <td style="padding-left: 10px;">
+        <div id="search_button" class='btn btn-primary'>Search</div>
+      </td>
+      <td style="padding-left: 10px;">
+        <div id="reset_button" class='btn btn-primary'>Show All</div>
+      </td>
+    </tr>
+  </table>
+</template>

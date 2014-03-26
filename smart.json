@@ -1,0 +1,16 @@
+{
+  "meteor": {},
+  "packages": {
+    "leaflet": {},
+    "sugar": {},
+    "autocompletion": {},
+    "bootstrap-3": {},
+    "mongodb-server-aggregation": {},
+    "leaflet-spin": {},
+    "leaflet-markercluster": {},
+    "leaflet-locatecontrol": {},
+    "font-awesome": {},
+    "leaflet-awesome-markers": {},
+    "topojson": {}
+  }
+}

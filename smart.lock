@@ -1,0 +1,80 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "leaflet": {},
+      "sugar": {},
+      "autocompletion": {},
+      "bootstrap-3": {},
+      "mongodb-server-aggregation": {},
+      "leaflet-spin": {},
+      "leaflet-markercluster": {},
+      "leaflet-locatecontrol": {},
+      "font-awesome": {},
+      "leaflet-awesome-markers": {},
+      "topojson": {}
+    },
+    "packages": {
+      "leaflet": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet.git",
+        "tag": "v0.3.6",
+        "commit": "d9e3bdb824145c1078e52945909bb1cf38724da5"
+      },
+      "sugar": {
+        "git": "https://github.com/bevanhunt/meteor-sugar.git",
+        "tag": "v0.1.6",
+        "commit": "8973ed7e027e260a572571d02d0f4a428ca866f9"
+      },
+      "autocompletion": {
+        "git": "https://github.com/sebdah/meteor-autocompletion.git",
+        "tag": "v0.1.4",
+        "commit": "821cb4a85d94132edfc26e8f0c2a432c95485e79"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.0-1",
+        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "mongodb-server-aggregation": {
+        "git": "https://github.com/zvictor/meteor-mongo-server.git",
+        "tag": "v1.0.3",
+        "commit": "416293e383f53e2506f1b7a1a7687390cbaf0e68"
+      },
+      "leaflet-spin": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-spin.git",
+        "tag": "v0.0.1",
+        "commit": "f0dae893bcdccb944dd59ad40c0a9be3f0ca2fb7"
+      },
+      "leaflet-markercluster": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-markercluster.git",
+        "tag": "v0.0.1",
+        "commit": "c5050c3d8f2a80fcf910732a67394b14df1bc07f"
+      },
+      "leaflet-locatecontrol": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-locatecontrol.git",
+        "tag": "v0.0.5",
+        "commit": "2211f2db380fc1bec38ec98c8b6ef828037ae786"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "leaflet-awesome-markers": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-awesome-markers.git",
+        "tag": "v0.0.2",
+        "commit": "1cce28336cb17b7b30f61e3aa25b1e08f054a963"
+      },
+      "topojson": {
+        "git": "https://github.com/vsivsi/meteor-topojson.git",
+        "tag": "v0.0.1",
+        "commit": "213cba5fb3429b1396ffee0fe4990832187d8a0d"
+      },
+      "jquery-ui": {
+        "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
+        "tag": "v1.9.2",
+        "commit": "c437d45edcf1367df8d5ffa8bad2867758030bd2"
+      }
+    }
+  }
+}
